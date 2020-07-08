@@ -98,8 +98,15 @@ form button {
   color: #fff;
   font-weight: bold;
   border-radius: 5px;
+  transition: .3s ease;
 }
+form button:hover{
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.48);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.48);
+transform: translateY(-4px);
 
+}
 .page-2__hero {
   margin-bottom: 5rem;
 }
@@ -127,6 +134,7 @@ form button {
   width: auto;
   padding: .2rem;
   margin-bottom: 3.5rem;
+  transition: .3s ease;
 }
 
 .page-2__link div {
@@ -145,6 +153,7 @@ form button {
 .page-2__link:visited, .page-2__link:hover {
   color: hsl(170, 45%, 43%);
   text-decoration: none;
+  transform: scale(1.1);
 }
 
 .card {
