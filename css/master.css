@@ -25,17 +25,22 @@ header {
   margin-top: 2rem;
   margin-bottom: 5rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-
+.header__logo{
+  max-width: 200px;
+margin-bottom: 2rem;
+}
 ul {
   list-style: none;
   padding: 0;
   display: flex;
+  align-self: flex-start;
 }
 
 header ul li {
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 ul li a {
@@ -254,6 +259,17 @@ footer ul li a {
 @media (min-width: 576px) {
   .container {
     max-width: 560px;
+  }
+  header {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header ul li {
+    margin-left: 1rem;
+    margin-right: 0;
   }
 }
 
