@@ -30,6 +30,7 @@ header {
 }
 .header__logo{
   max-width: 200px;
+  margin: auto;
 margin-bottom: 2rem;
 }
 .navbar{
@@ -271,6 +272,11 @@ footer ul li a {
   }
   .navbar{
 margin:0;
+  }
+  .header__logo{
+    max-width: 800px;
+    margin: 0;
+  margin-bottom: 2rem;
   }
   header ul li {
     margin-left: 1rem;
