@@ -1,0 +1,276 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: hsl(243, 87%, 12%);
+}
+
+h2, h3, button {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-page__content>* {
+  margin: 2rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+form input {
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid hsl(243, 87%, 12%);
+  padding: 0 1.5rem;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+
+form button {
+  border: none;
+  background: hsl(224, 93%, 58%);
+  height: 3rem;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.page-2__hero {
+  margin-bottom: 5rem;
+}
+
+.page-2__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-2__content p {
+  text-align: left;
+  color: hsl(238, 22%, 44%);
+}
+
+.page-2__content p:nth-child(3) {
+  margin-bottom: 3rem;
+}
+
+.page-2__link {
+  margin: auto;
+  color: hsl(170, 45%, 43%);
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  width: auto;
+  padding: .2rem;
+  margin-bottom: 3.5rem;
+}
+
+.page-2__link div {
+  width: 1rem;
+  height: 1rem;
+  background: hsl(170, 45%, 43%);
+  border-radius: 50%;
+  color: #fff;
+  font-size: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: .5rem;
+}
+
+.page-2__link:visited, .page-2__link:hover {
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+}
+
+.card {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  -webkit-box-shadow: 0px 0px 32px 5px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 32px 5px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 0px 32px 5px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+.card i {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+.card__profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.card__profile-info img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.card__data-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: .8rem;
+}
+
+.card__data-info h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card__data-info p {
+  font-size: .7rem;
+  margin: 0;
+}
+
+.suscribe__main {
+  background: hsl(238, 22%, 44%);
+  color: #fff;
+}
+
+.suscribe {
+  padding: 3rem 0;
+}
+
+.suscribe form {
+  width: 80%;
+  margin: auto;
+}
+
+.suscribe form input {
+  padding: 0 1rem;
+}
+
+.footer__main {
+  background: hsl(243, 87%, 12%);
+  color: #fff;
+  text-align: left;
+}
+
+.main {
+  padding: 3rem 0;
+}
+
+.footer__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__first-column {
+  margin-bottom: 3rem;
+}
+
+.footer__first-column p i {
+  margin-right: 1rem;
+}
+
+footer ul {
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+footer ul li {
+  margin-bottom: 1rem;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+.footer__social-media {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.icon {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .5rem;
+}
+
+/* --Media querys-- */
+@media (min-width: 576px) {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 750px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
