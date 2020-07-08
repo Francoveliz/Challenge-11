@@ -294,7 +294,7 @@ footer ul li a {
 
   header {
     margin-top: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -342,7 +342,7 @@ footer ul li a {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
 }
 
 .home-page>* {
@@ -383,7 +383,7 @@ footer ul li a {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .page-2>* {
@@ -432,6 +432,7 @@ footer ul li a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .suscribe>* {
