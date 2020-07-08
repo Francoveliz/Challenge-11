@@ -32,11 +32,13 @@ header {
   max-width: 200px;
 margin-bottom: 2rem;
 }
+.navbar{
+  margin: auto;
+}
 ul {
   list-style: none;
   padding: 0;
   display: flex;
-  align-self: flex-start;
 }
 
 header ul li {
@@ -266,6 +268,9 @@ footer ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .navbar{
+margin:0;
   }
   header ul li {
     margin-left: 1rem;
